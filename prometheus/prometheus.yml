@@ -51,8 +51,5 @@ scrape_configs:
     static_configs:
       - targets: ['node-exporter:9100']
 
-  - job_name: 'spring-boot-app'
-    scrape_interval: 15s
-    static_configs:
-      - targets: ['localhost:1015']
+
 
